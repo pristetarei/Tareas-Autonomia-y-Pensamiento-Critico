@@ -1,29 +1,29 @@
 # Tareas-Autonomia-y-Pensamiento-Critico
+```mermaid
 flowchart LR
     subgraph Pensamiento Analítico
-        A((Pensamiento Analítico))
+        A((Pensamiento Analítico)) style fill:#f9f,stroke:#333,stroke-width:2px
+    end
 
-    subgraph Herramientas de Análisis
+    subgraph Herramientas Visuales
         B{Mapas Mentales}
         C{Cuadros Sinópticos}
         D{Diagramas de Flujo}
-        E{Matrices de Decisión}
-        F{Análisis Estadístico}
+    end
+
+    subgraph Herramientas Cuantitativas
+        E{Análisis Estadístico}
+        F{Matrices de Decisión}
+    end
+
+    subgraph Herramientas Cualitativas
         G{Análisis de Datos Cualitativos}
     end
 
-    A --> B
-    A --> C
-    A --> D
-    A --> E
-    A --> F
-    A --> G
-
-    subgraph Tipos de Análisis
-        H{Análisis Cuantitativo}
-        I{Análisis Cualitativo}
-    end
-
-    E --> H
-    F --> H
-    G --> I
+    A --> B & C & D & E & F & G
+    B --> H(Organización de ideas)
+    C --> I(Comparación de datos)
+    D --> J(Visualización de procesos)
+    E --> K(Análisis numérico)
+    F --> L(Toma de decisiones)
+    G --> M(Interpretación de texto)
