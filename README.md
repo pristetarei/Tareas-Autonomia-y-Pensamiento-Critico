@@ -2,10 +2,6 @@
 
 ```mermaid
 graph LR
-    A[Inicio] --> B{Decisión?}
-    B -- Sí --> C[Proceso]
-    B -- No --> D[Fin]
-graph LR
     A(Programación) --> B{Lenguajes}
     B --> C(Python)
     B --> D(Java)
