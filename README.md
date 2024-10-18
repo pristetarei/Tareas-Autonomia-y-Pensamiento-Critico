@@ -1,4 +1,5 @@
 # Tareas-Autonomia-y-Pensamiento-Critico
+
 ```mermaid
 graph LR
     subgraph Pensamiento Analítico
