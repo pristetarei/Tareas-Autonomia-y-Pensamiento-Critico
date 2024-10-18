@@ -2,7 +2,6 @@
 flowchart LR
     subgraph Pensamiento Analítico
         A((Pensamiento Analítico))
-    end
 
     subgraph Herramientas de Análisis
         B{Mapas Mentales}
