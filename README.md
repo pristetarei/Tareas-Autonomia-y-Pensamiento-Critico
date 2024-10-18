@@ -9,22 +9,21 @@ graph LR
     subgraph Herramientas Visuales
         B{Mapas Mentales}
         C{Cuadros Sinópticos}
-        D{Diagramas de Flujo}
+        D{Nubes de Palabras}
+        E{Líneas de Tiempo}
     end
 
-    subgraph Herramientas Cuantitativas
-        E{Análisis Estadístico}
-        F{Matrices de Decisión}
+    subgraph Herramientas Tabulares
+        F{Tablas Informativas}
+        G{Glosarios}
+        H{Mapas de Significados}
     end
 
-    subgraph Herramientas Cualitativas
-        G{Análisis de Datos Cualitativos}
-    end
-
-    A --> B & C & D & E & F & G
-    B --> H(Organización de ideas)
-    C --> I(Comparación de datos)
-    D --> J(Visualización de procesos)
-    E --> K(Análisis numérico)
-    F --> L(Toma de decisiones)
-    G --> M(Interpretación de texto)
+    A --> B & C & D & E & F & G & H
+    B((Organizar ideas visualmente))
+    C((Comparar y contrastar información))
+    D((Identificar palabras clave))
+    E((Visualizar secuencias temporales))
+    F((Organizar datos en filas y columnas))
+    G((Definir términos))
+    H((Mostrar relaciones entre conceptos))
