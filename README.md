@@ -2,7 +2,6 @@
 
 ```mermaid
 graph LR
-    subgraph PensamientoAnalitico
         A((Pensamiento Analitico)) style fill:#f9f,stroke:#333,stroke-width:2px
     end
 
