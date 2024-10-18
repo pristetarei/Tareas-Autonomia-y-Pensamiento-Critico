@@ -2,20 +2,21 @@
 
 ```mermaid
 graph LR
-        A((Pensamiento Analitico)) style fill:#f9f,stroke:#333,stroke-width:2px
+    subgraph Pensamiento_Analítico
+        A((Pensamiento Analítico)) style fill:#f9f,stroke:#333,stroke-width:2px
     end
 
-    subgraph HerramientasVisuales
+    subgraph Herramientas_Visuales
         B{Mapas Mentales}
-        C{CuadrosSinopticos}
-        D{NubesDePalabras}
-        E{LineasDeTiempo}
+        C{Cuadros Sinópticos}
+        D{Nubes de Palabras}
+        E{Líneas de Tiempo}
     end
 
-    subgraph HerramientasTabulares
-        F{TablasInformativas}
+    subgraph Herramientas_Tabulares
+        F{Tablas Informativas}
         G{Glosarios}
-        H{MapasDeSignificados}
+        H{Mapas de Significados}
     end
 
     A --> B & C & D & E & F & G & H
